@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movie Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body class="bg-dark text-light">
+
+  <header class="py-4 text-center bg-primary text-white shadow">
+    <h1 class="mb-0">🎬 Movie Gallery</h1>
+    <p class="lead">Browse your favorite movies!</p>
+  </header>
+
+  <main class="container py-4">
+    <div class="mb-4 text-center">
+      <input type="text" id="searchInput" class="form-control w-50 mx-auto" placeholder="Search movies..." />
+    </div>
+    
+    <div id="movie-container" class="row g-4">
+      <!-- Movie cards will be dynamically inserted here -->
+    </div>
+  </main>
+
+  <footer class="text-center py-3 bg-secondary text-white mt-5">
+    <small>&copy; 2025 Movie Gallery. All rights reserved.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
